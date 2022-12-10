@@ -15,6 +15,7 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+
 }
 
 // No modifiques nada debajo de esta linea //

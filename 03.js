@@ -14,13 +14,17 @@ function buscarAmigo(amigos, nombre) {
   //  buscarAmigo(amigos, 'toni') debe devolver { nombre: 'toni', edad: 33 };
 
   // Tu código aca:
-  var buscarUnAmigo = 0
+  var buscarUnamigo = amigos.filter(element => buscarUnamigo == nombre);
+  return buscarAmigo;
+}
+
+  /*var buscarUnAmigo = 0
   for(var unAmigo of amigos){
-    if(unAmigo.nombre == 'nombre');
+    if(unAmigo.nombre === nombre);
         buscarUnAmigo = unAmigo;
   }
   return buscarUnAmigo;
-}
+}*/
 
 // No modifiques nada debajo de esta linea //
 
